@@ -1,6 +1,7 @@
 <html>
 <head>
   <title>Submitted!</title>
+  <link rel="stylesheet" type="text/css" href="theme.css">
 </head>
 <body>
   <?php
@@ -13,9 +14,13 @@ fputs($file, $entry);
 fclose($file);
    ?>
   <h1>Thank you for submitting!</h1>
-  <p>Your message:</p><br>
+  <div class="block">
+  <center><h2>Your message:</h2><br><br>
 <?php
 echo $message."<br>";
 ?>
+<br><br><br> <a href="index.php" class="btn">Submit another message</a>
+</center>
+</div>
 </body>
 </html>

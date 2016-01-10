@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Virunee's Guestbook</title>
+    <link rel="stylesheet" type="text/css" href="theme.css">
   </head>
   <body>
       <h1>Guestbook</h1>
@@ -18,11 +19,13 @@
             <td>Message:</td>
             <td><input type="text" size="20" name="message"></td>
           </tr>
-          <tr>
-            <td><input type="submit" value="Submit"></td>
-            <td><input type="reset" value="Reset form"></td>
+          <tr><td></td>
+            <td><center><input type="submit" value="Submit">
+            <input type="reset" value="Reset form"></center></td>
           </tr>
         </table>
       </form>
+      <br><br>
+      <center><a href="messages.php" class="btn">See all messages</a><center>
     </body>
 </html>
